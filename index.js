@@ -6,11 +6,4 @@ let rollerSection=document.getElementsByClassName('main');
 let shoppingCart=document.getElementsByClassName('sidebar-left');
 let container=document.querySelector('body');
 //dom
-function ChangeColor()
-    {
-        var ChangeColor = document.getElementsByClassName('body');
-        ChangeColor.style.background-color = 'red';
-    }
-pinki.addEventListener('click', ChangeColor(){
-    document.querySelector('body').style.background = 'red';    
-});
+pinki.addEventListener
