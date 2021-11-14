@@ -6,7 +6,7 @@ let rollerSection=document.getElementsByClassName('main');
 let shoppingCart=document.getElementsByClassName('sidebar-left');
 let container=document.querySelector('body');
 //dom
-function changeColor(){
-    document.querySelector('body').style.backgroundColor = 'red'
-}
-pinki.addEventListener("click", changeColor());
+
+pinki.addEventListener("click", function changeColor(){
+    pinki.style.background-color === 'red';
+});
