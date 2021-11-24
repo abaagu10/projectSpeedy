@@ -6,7 +6,6 @@ let rollerSection=document.getElementsByClassName('main');
 let shoppingCart=document.getElementsByClassName('sidebar-left');
 let box=document.getElementsByClassName('container');
 //dom
-
-pinki.onclick= function () {
-  box.style= "red";  
-};
+for (let i = 0; i < box.length; i++) {
+  console.log(box);
+}
